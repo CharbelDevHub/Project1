@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
     - name: Push to Dockerhub
-      run: docker push CharbelDevHub/Project1:latest
+      run: docker push charbeldev/Project1:latest
