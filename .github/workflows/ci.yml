@@ -21,4 +21,4 @@ jobs:
     - name: Build the Docker image
       run: docker build -t project1 .
     - name: Push to Dockerhub
-      run: docker push charbeldev/project1:latests
+      run: docker push charbeldev/project1:latest
