@@ -19,6 +19,6 @@ jobs:
       run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
       
     - name: Build the Docker image
-      run: docker build -t project1 .
+      run: docker build -t charbeldev/project1 .
     - name: Push to Dockerhub
       run: docker push charbeldev/project1:latest
