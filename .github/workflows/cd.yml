@@ -18,4 +18,4 @@ jobs:
     - name: Delete Old docker container
       run: sudo docker rm -f project1-container || true
     - name: Run Docker Container
-      run: sudo docker run -d -p 8080:8080 --name project1-container charbeldev/project1
+      run: sudo docker run -d -p 8081:8081 --name project1-container charbeldev/project1
